@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   font-family: Inter, system-ui, sans-serif;
 
@@ -50,8 +52,18 @@ a {
   overflow: hidden;
 }
 
+.hero-visual {
+  width: min(52vw, 760px);
+  flex: 0 1 760px;
+}
+
+.hero-marquee {
+  width: 100%;
+  max-width: 760px;
+}
+
 .hero-content {
-  max-width: 650px;
+  max-width: 750px;
 }
 
 .hero-label {
@@ -159,5 +171,10 @@ a {
 
   .hero-visual {
     width: min(70vw, 350px);
+    flex-basis: auto;
+  }
+
+  .hero-marquee {
+    max-width: 350px;
   }
 }
