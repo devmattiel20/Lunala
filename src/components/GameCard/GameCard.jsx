@@ -1,10 +1,27 @@
-function GameCard({ nombre, genero, precio }) {
+import "./GameCard.css";
+
+function GameCard({
+    nombre,
+    genero,
+    precio,
+    imagen,
+    delay,}) {
 
     return (
-        <article className="game-card">
+            <article
+            className="game-card"
+            style={{
+                animationDelay: `${delay}ms`
+            }}
+        >
 
             <div className="game-image">
-                Imagen
+
+                <img
+                    src={imagen}
+                    alt={nombre}
+                />
+
             </div>
 
             <div className="game-info">
@@ -13,12 +30,9 @@ function GameCard({ nombre, genero, precio }) {
 
                 <p>{genero}</p>
 
-                <span>{precio}</span>
+                <span>${precio}</span>
 
-                <button>
-                    Agregar al carrito
-                </button>
-
+               
             </div>
 
         </article>

@@ -1,0 +1,36 @@
+                    App
+                     │
+                     ▼
+            PublisherExplorer
+                     │
+             useState()
+                     │
+          "nintendo" seleccionado
+                     │
+          ┌──────────┴──────────┐
+          ▼                     ▼
+ PublisherSidebar       PublisherContent
+          │                     │
+          │                     ▼
+          │                 find()
+          │                     │
+          │                 Nintendo
+          │                     │
+          │                  juegos
+          │                     │
+          │                  map()
+          │                     │
+          │              ┌──────┼──────┐
+          │              ▼      ▼      ▼
+          │           GameCard GameCard GameCard
+          │
+          └──── click
+                │
+                ▼
+       setPublisherSeleccionado()
+                │
+                ▼
+          React actualiza
+                │
+                ▼
+       nuevos GameCards

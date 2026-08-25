@@ -1,36 +1,44 @@
+import "./PublisherContent.css";
+import { publishers } from "../data/games";
 import GameCard from "../GameCard/GameCard";
+
 
 function PublisherContent({ publisherSeleccionado }) {
 
-    return (
-        <main className="publisher-content">
+    const publisher = publishers.find(
+        (publisher) => publisher.id === publisherSeleccionado// busca dentro del array el publisher que coincide con nuestro estado.
+    );
 
-            <div className="publisher-header">
-                <h2>{publisherSeleccionado}</h2>
+    return (
+      <main
+    key={publisher.id}
+    className={`publisher-content theme-${publisher.tema}`}
+>
+
+            <header className="publisher-header">
+
+                <h2>{publisher.nombre}</h2>
+
                 <p>
-                    Explora los videojuegos de este publisher.
+                    {publisher.descripcion}
                 </p>
-            </div>
+
+            </header>
 
             <div className="games-grid">
 
-                <GameCard
-                    nombre="Pokémon Emerald"
-                    genero="RPG"
-                    precio="$59.99"
-                />
+                {publisher.juegos.map((juego, juegoIndex) => ( //"Por cada juego del array, crea este JSX."
 
-                <GameCard
-                    nombre="Mario Kart"
-                    genero="Racing"
-                    precio="$49.99"
-                />
+                      <GameCard // Este es el componente que se va a renderizar por cada juego del array.
+                        key={juego.id}
+                        nombre={juego.nombre} //los properties que se le pasan al componente GameCard son los mismos que se encuentran en el objeto juego.
+                        genero={juego.genero}
+                        precio={juego.precio}
+                        imagen={juego.imagen}
+                        delay={juegoIndex * 100}
+                    />
 
-                <GameCard
-                    nombre="The Legend of Zelda"
-                    genero="Adventure"
-                    precio="$69.99"
-                />
+                ))}
 
             </div>
 

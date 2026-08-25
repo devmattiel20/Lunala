@@ -1,3 +1,5 @@
+import "./PublisherSidebar.css";
+
 function PublisherSidebar({
     publisherSeleccionado,
     setPublisherSeleccionado
@@ -32,9 +34,10 @@ function PublisherSidebar({
             <h2>Explorar</h2>
 
             <ul>
-                {publishers.map((publisher) => (
+                {publishers.map((publisher) => (//"Por cada publisher del array, crea este JSX."    
 
                     <li key={publisher.id}>
+
                         <button
                             className={
                                 publisherSeleccionado === publisher.id
@@ -47,6 +50,7 @@ function PublisherSidebar({
                         >
                             {publisher.nombre}
                         </button>
+
                     </li>
 
                 ))}
