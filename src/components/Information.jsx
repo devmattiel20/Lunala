@@ -7,6 +7,7 @@ import {
   GlowingCard,
 } from "./lightswind/glowing-cards";
 
+
 function Information() {
   return (
     <div className="information">

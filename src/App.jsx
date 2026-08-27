@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Information from "./components/Information";
 import PublisherExplorer from "./components/PublisherExplorer/PublisherExplorer";
+import Subscription from "./components/Subscription";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Information />
       <PublisherExplorer />
+      <Subscription />  
     </>
   );
 }
