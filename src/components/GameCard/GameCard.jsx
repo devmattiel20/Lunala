@@ -2,7 +2,6 @@ import "./GameCard.css";
 
 function GameCard({
     nombre,
-    genero,
     precio,
     imagen,
     delay,}) {
@@ -28,7 +27,6 @@ function GameCard({
 
                 <h3>{nombre}</h3>
 
-                <p>{genero}</p>
 
                 <span>${precio}</span>
 

@@ -19,10 +19,7 @@ function PublisherContent({ publisherSeleccionado }) {
 
                 <h2>{publisher.nombre}</h2>
 
-                <p>
-                    {publisher.descripcion}
-                </p>
-
+              
             </header>
 
             <div className="games-grid">

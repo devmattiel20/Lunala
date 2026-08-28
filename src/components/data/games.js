@@ -1,29 +1,47 @@
+import EscarlatayPurpura from "../../images/EscarlatayPurpura.jpg";
+import MarioKart from "../../images/MarioKart.webp";
+import Zelda from "../../images/Zelda.jpg";
+import FC26 from "../../images/FC26.jpg"
+import Spider from "../../images/Spider.webp"
+import Tlou from "../../images/Tlou.webp"
+import Halo from "../../images/Halo.webp"
+import Forza from "../../images/Forza.webp"
+import Star from "../../images/Star.jpg"
+import NFL from "../../images/NFL.jpg"
+import F1 from "../../images/F1.webp"
+import Metal from "../../images/Metal.webp"
+import EFOTBALL from "../../images/EFOTBALL.png"
+import Castle from "../../images/Castle.webp"
+
+
+
+
+
 export const publishers = [
     {
         id: "nintendo",
         nombre: "Nintendo",
-        descripcion: "Descubre aventuras legendarias y clásicos inolvidables.",
         juegos: [
             {
                 id: 1,
-                nombre: "Pokémon Emerald",
+                nombre: "Pokémon Escarlata y purpura",
                 genero: "RPG",
                 precio: 59.99,
-                imagen: "/images/pokemon-emerald.jpg"
+                imagen: EscarlatayPurpura
             },
             {
                 id: 2,
-                nombre: "Mario Kart",
+                nombre: "MarioKart",
                 genero: "Racing",
                 precio: 49.99,
-                imagen: "/images/mario-kart.jpg"
+                imagen: MarioKart
             },
             {
                 id: 3,
                 nombre: "The Legend of Zelda",
                 genero: "Adventure",
                 precio: 69.99,
-                imagen: "/images/zelda.jpg"
+                imagen: Zelda
             }
         ]
     },
@@ -31,29 +49,28 @@ export const publishers = [
     {
         id: "playstation",
         nombre: "PlayStation",
-        tema: "nintendo",
-        descripcion: "Grandes historias y experiencias cinematográficas.",
+        tema: "PlayStation",
+      
         juegos: [
             {
                 id: 4,
-                nombre: "Pokemon amarillo",
-                genero: "Action",
+                nombre: "FC 26",
                 precio: 69.99,
-                imagen: "/images/pikachu.jpg",
+                imagen: FC26
             },
             {
                 id: 5,
                 nombre: "Spider-Man",
                 genero: "Action",
                 precio: 59.99,
-                imagen: "/images/spiderman.jpg"
+                imagen: Spider
             },
             {
                 id: 6,
                 nombre: "The Last of Us",
                 genero: "Adventure",
                 precio: 69.99,
-                imagen: "/images/the-last-of-us.jpg"
+                imagen: Tlou
             }
         ]
     },
@@ -62,28 +79,27 @@ export const publishers = [
         id: "xbox",
         nombre: "Xbox",
         tema: "xbox",
-        descripcion: "Potencia, velocidad y mundos increíbles.",
         juegos: [
             {
                 id: 7,
                 nombre: "Halo Infinite",
                 genero: "Shooter",
                 precio: 59.99,
-                imagen: "/images/halo.jpg"
+                imagen: Halo
             },
             {
                 id: 8,
                 nombre: "Forza Horizon",
                 genero: "Racing",
                 precio: 69.99,
-                imagen: "/images/forza.jpg"
+                imagen: Forza
             },
             {
                 id: 9,
                 nombre: "Starfield",
                 genero: "RPG",
                 precio: 69.99,
-                imagen: "/images/starfield.jpg"
+                imagen: Star
             }
         ]
     },
@@ -92,28 +108,27 @@ export const publishers = [
         id: "ea",
         nombre: "EA Sports",
         tema: "ea",
-        descripcion: "Vive la emoción del deporte.",
         juegos: [
             {
                 id: 10,
                 nombre: "EA Sports FC",
                 genero: "Sports",
                 precio: 69.99,
-                imagen: "/images/ea-fc.jpg"
+                imagen: FC26
             },
             {
                 id: 11,
                 nombre: "Madden NFL",
                 genero: "Sports",
                 precio: 59.99,
-                imagen: "/images/madden.jpg"
+                imagen: NFL
             },
             {
                 id: 12,
                 nombre: "F1",
                 genero: "Racing",
                 precio: 69.99,
-                imagen: "/images/f1.jpg"
+                imagen: F1
             }
         ]
     },
@@ -122,28 +137,27 @@ export const publishers = [
         id: "konami",
         nombre: "Konami",
         tema: "Konami",
-        descripcion: "Historias, estrategia y acción legendaria.",
         juegos: [
             {
                 id: 13,
                 nombre: "Metal Gear Solid",
                 genero: "Stealth",
                 precio: 49.99,
-                imagen: "/images/metal-gear.jpg"
+                imagen: Metal
             },
             {
                 id: 14,
-                nombre: "Silent Hill",
+                nombre: "EFOTBALL",
                 genero: "Horror",
                 precio: 59.99,
-                imagen: "/images/silent-hill.jpg"
+                imagen: EFOTBALL
             },
             {
                 id: 15,
                 nombre: "Castlevania",
                 genero: "Action",
                 precio: 39.99,
-                imagen: "/images/castlevania.jpg"
+                imagen: Castle
             }
         ]
     }
