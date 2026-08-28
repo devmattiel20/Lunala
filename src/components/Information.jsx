@@ -7,11 +7,13 @@ import {
   GlowingCard,
 } from "./lightswind/glowing-cards";
 
-
 function Information() {
   return (
+    <div className="container-informacion">
+    <div className="info-tittle"><h1>Jugar con Luvee</h1></div>,
     <div id="information" className="information">
-      <GlowingCards className="information-cards" gap="1.25rem" padding="1rem 0">
+      
+      <GlowingCards className="information-cards" gap="1.75rem" padding="1rem 0">
         <GlowingCard glowColor="#3b82f6" className="information-card">
           <img src={Picaxe} alt="Picaxe" className="information-card-image" />
           <h2>Discover</h2>
@@ -21,7 +23,7 @@ function Information() {
         <GlowingCard glowColor="#facc15" className="information-card">
           <img src={Pikachu} alt="Pikachu" className="information-card-image" />
           <h2>Play</h2>
-          <p>Find your next favorite experience and start playing.</p>
+          <p>Go find your next favorite experience and start playing in big.</p>
         </GlowingCard>
 
         <GlowingCard glowColor="#f59e0b" className="information-card">
@@ -36,6 +38,9 @@ function Information() {
           <p>Turn bold ideas into memorable digital adventures.</p>
         </GlowingCard>
       </GlowingCards>
+    
+    </div>
+     
     </div>
   );
 }

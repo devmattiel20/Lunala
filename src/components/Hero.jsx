@@ -1,4 +1,5 @@
 import HeroVideo from "../images/HeroVideo.mp4";
+import AsciiWave from "./lightswind/ascii-wave";
 
 function Hero() {
   return (
@@ -26,8 +27,11 @@ function Hero() {
         </video>
       </div>
 
-      
+      <div className="wave" aria-hidden="true">
+        <AsciiWave color="#5ee7ff" speed={1} />
+      </div>
     </section>
+    
   );
 }
 
