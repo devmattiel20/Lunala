@@ -39,8 +39,7 @@ function Subscription() {
     return (
         <section className="subscription" aria-labelledby="subscription-title">
             <div className="subscription-heading">
-                <p className="subscription-eyebrow">CHOOSE YOUR ORBIT</p>
-                <h2 id="subscription-title">Encuentra tu plan de juego</h2>
+                <h2 id="subscription-title"> Tu plan de juego</h2>
                 <p>Elige cómo quieres explorar juegos, estudios e ideas que están dando forma al futuro.</p>
             </div>
 
@@ -80,16 +79,7 @@ function Subscription() {
                 ))}
             </div>
 
-            <form className="subscription-form" onSubmit={handleSubmit}>
-                <label htmlFor="subscription-email">Recibe novedades de Lunala</label>
-                <div className="subscription-form-row">
-                    <input id="subscription-email" type="email" placeholder="Tu correo electrónico" required />
-                    <button type="submit">Suscribirme</button>
-                </div>
-                <p className="subscription-status" aria-live="polite">
-                    {submitted ? `Listo: te hemos apuntado al plan ${selectedPlan}.` : `Plan elegido: ${selectedPlan}`}
-                </p>
-            </form>
+        
         </section>
     );
 }
