@@ -57,32 +57,32 @@
 }
 
 .theme-nintendo {
-    --accent: #e60012;
-    --background: #fff5f5;
+    --accent: red;
+    --background: linear-gradient(135deg, #00C0E0 30%,  #ff0000 70%);
     --surface: #ffffff;
 }
 
 .theme-xbox {
     --accent: #107c10;
-    --background: #3cd453;
+    --background: linear-gradient(135deg, #fff 0%, #3cd453 60%, #095a15 90%);
     --surface: #ffffff;
 }
 
 .theme-playstation {
     --accent: #0070cc;
-    --background: #f1f7ff;
-    --surface: #ffffff;
+    --background: linear-gradient(135deg, #fff 6%, rgb(176, 185, 253) 58%, #2600ff 70%);
+    --surface: #22a2dd;
 }
 
 .theme-ea {
-    --accent: #6f2cff;
-    --background: #f5f1ff;
+    --accent: #00071F;
+    --background: linear-gradient(135deg, #fff 0%, #00071F 55%, #00071F 100%);
     --surface: #ffffff;
 }
 
 .theme-konami {
     --accent: #d71920;
-    --background: #fff3f3;
+    --background: linear-gradient(135deg, #fff 0%, #fff3f3 48%, #e7000c 100%);
     --surface: #ffffff;
 }
 

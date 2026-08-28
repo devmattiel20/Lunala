@@ -1,13 +1,18 @@
 .publisher-sidebar {
-    padding: 24px 0;
+    padding: 24px 15px;
+    
+    border-radius: 23px;
+    background-color: #1b1a1a;
 }
 
 .publisher-sidebar h2 {
+    font-family: "Orbitron", "Rajdhani", sans-serif;
     margin: 0 0 20px;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    color: #777;
+    color: #3fe7ff;
+    
 }
 
 .publisher-sidebar ul {
@@ -34,7 +39,7 @@
 
     background: transparent;
 
-    color: #555;
+    color: #a9a8a8;
 
     font-size: 15px;
     font-weight: 500;
@@ -57,6 +62,6 @@
 }
 
 .publisher-btn.active {
-    background-color: #111;
-    color: white;
+    background-color: #343333;
+    color: #3fe7ff;
 }

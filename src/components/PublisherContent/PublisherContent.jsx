@@ -12,7 +12,7 @@ function PublisherContent({ publisherSeleccionado }) {
     return (
       <main
     key={publisher.id}
-    className={`publisher-content theme-${publisher.tema}`}
+        className={`publisher-content theme-${publisher.id}`}
 >
 
             <header className="publisher-header">
