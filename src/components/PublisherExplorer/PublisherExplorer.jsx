@@ -8,7 +8,7 @@ function PublisherExplorer() {
     const [publisherSeleccionado, setPublisherSeleccionado] = useState("nintendo"); // Estado inicial 
 
     return (
-        <section className="publisher-explorer">
+        <section id="publishers" className="publisher-explorer">
 
             <PublisherSidebar
                 publisherSeleccionado={publisherSeleccionado}

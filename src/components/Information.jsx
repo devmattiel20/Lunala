@@ -10,7 +10,7 @@ import {
 
 function Information() {
   return (
-    <div className="information">
+    <div id="information" className="information">
       <GlowingCards className="information-cards" gap="1.25rem" padding="1rem 0">
         <GlowingCard glowColor="#3b82f6" className="information-card">
           <img src={Picaxe} alt="Picaxe" className="information-card-image" />
