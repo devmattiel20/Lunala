@@ -5,19 +5,19 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <p className="hero-label">THE FUTURE OF GAMES</p>
+        <p className="hero-label">EL NEXUS DE LOS VIDEOJUEGOS</p>
 
         <h1>
           GAMES
-          <span>WITHOUT LIMITS</span>
+          <span>SIN LÍMITES</span>
         </h1>
 
         <p className="hero-description">
-          Your Game. Your world.
+          Tu juego. Tu mundo.
         </p>
 
         <button className="hero-button">
-          START PLAYING
+          Empieza a jugar
         </button>
       </div>
       <div className="hero-video">

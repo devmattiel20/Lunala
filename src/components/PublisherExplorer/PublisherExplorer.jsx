@@ -11,8 +11,8 @@ function PublisherExplorer() {
         <section id="publishers" className="publisher-explorer">
 
             <header className="publisher-explorer-header">
-                <p>THE WORLD OF PUBLISHERS</p>
-                <h1>Explore the universe</h1>
+                <p>EL MUNDO DE LAS EDITORIALES</p>
+                <h1>Explora el universo</h1>
             </header>
 
             <PublisherSidebar

@@ -4,14 +4,14 @@ import "./Subscription.css";
 
 const plans = [
     {
-        name: "Explorer",
+        name: "GRATIS",
         price: "0",
-        description: "Para descubrir el universo de Lunala a tu ritmo.",
+        description: "Para descubrir el universo de Luvee a tu ritmo.",
         features: ["Acceso a juegos destacados", "Noticias semanales", "Perfil de jugador"],
         color: "#3b82f6",
     },
     {
-        name: "Orbit",
+        name: "PRO+",
         price: "9",
         description: "La mejor experiencia para quienes siempre quieren más.",
         features: ["Juegos exclusivos", "Contenido sin anuncios", "Recompensas mensuales"],
@@ -19,7 +19,7 @@ const plans = [
         featured: true,
     },
     {
-        name: "Constellation",
+        name: "PLUS+",
         price: "19",
         description: "Beneficios premium para vivir cada lanzamiento primero.",
         features: ["Acceso anticipado", "Soporte prioritario", "Eventos para miembros"],
@@ -40,7 +40,7 @@ function Subscription() {
         <section className="subscription" aria-labelledby="subscription-title">
             <div className="subscription-heading">
                 <h2 id="subscription-title"> Tu plan de juego</h2>
-                <p>Elige cómo quieres explorar juegos, estudios e ideas que están dando forma al futuro.</p>
+                <p>Elige cómo quieres explorar juegos, estudios e ideas que están dando forma al gaming.</p>
             </div>
 
             <div className="subscription-plans">
