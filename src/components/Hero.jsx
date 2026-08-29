@@ -3,7 +3,7 @@ import AsciiWave from "./lightswind/ascii-wave";
 
 function Hero() {
   return (
-    <section className="hero">
+    <section id="inicio" className="hero">
       <div className="hero-content">
         <p className="hero-label">EL NEXUS DE LOS VIDEOJUEGOS</p>
 
@@ -17,7 +17,8 @@ function Hero() {
         </p>
 
         <button className="hero-button">
-          Empieza a jugar
+          <a href="#publishers">Empieza a jugar</a>
+          
         </button>
       </div>
       <div className="hero-video">

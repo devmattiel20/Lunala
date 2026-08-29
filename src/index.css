@@ -25,6 +25,12 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 72px;
+}
+
+section[id],
+[id] {
+  scroll-margin-top: 72px;
 }
 
 * {
@@ -78,7 +84,7 @@ a {
 
 .nav-links {
   display: flex;
-  margin-left: 410px;
+  margin-left: 420px;
   margin-right: auto;
   gap: clamp(18px, 3vw, 42px);
   list-style: none;
@@ -109,12 +115,14 @@ a {
 }
 
 .nav-links a:hover,
-.nav-links a:focus-visible {
+.nav-links a:focus-visible,
+.nav-links a.is-active {
   color: var(--text-primary);
 }
 
 .nav-links a:hover::after,
-.nav-links a:focus-visible::after {
+.nav-links a:focus-visible::after,
+.nav-links a.is-active::after {
   transform: scaleX(1);
 }
 
@@ -133,6 +141,7 @@ a {
 
 
 .hero-content {
+  margin-top: 79px;
   min-width: 0;
   max-width: 680px;
   flex: 1 1 0;

@@ -37,12 +37,12 @@ function Subscription() {
     }
 
     return (
-        <section className="subscription" aria-labelledby="subscription-title">
+        <section className="subscription" aria-labelledby="subscription-heading">
             <div className="subscription-heading">
-                <h2 id="subscription-title"> Tu plan de juego</h2>
-                <p>Elige cómo quieres explorar juegos, estudios e ideas que están dando forma al gaming.</p>
+                <h2 id="subscription-title">Tu plan de juego</h2>
+               
             </div>
-
+            
             <div className="subscription-plans">
                 {plans.map((plan) => (
                     <ElectroBorder

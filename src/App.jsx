@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div id="top">
-      <Navbar />
+      <Navbar/>
       <Hero />
       <Information />
       <PublisherExplorer />

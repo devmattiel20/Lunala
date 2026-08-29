@@ -18,7 +18,7 @@ function Footer() {
           <a href="#top">Inicio</a>
           <a href="#information">Acerca De</a>
           <a href="#publishers">Catálogo</a>
-          <a href="#subscription-title">Planes+</a>
+          <a href="#subscription-title">Plan+</a>
         </section>
 
         <section className="footer-column">

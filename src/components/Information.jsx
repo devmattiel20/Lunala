@@ -6,12 +6,13 @@ import { GlowingCards, GlowingCard } from "./lightswind/glowing-cards";
 
 function Information() {
   return (
-    <div className="container-informacion">
+    
+    <div id="information" className="container-informacion"> <div ></div>
       <div className="info-tittle">
         <h1>Jugar con Luvee</h1>
       </div>
       ,
-      <div id="information" className="information">
+      <div className="information">
         <GlowingCards
           className="information-cards"
           gap="1.75rem"
@@ -51,7 +52,7 @@ function Information() {
           <GlowingCard glowColor="#f43f5e" className="information-card">
             <img src={Switch} alt="Switch" className="information-card-image" />
             <h2>Create</h2>
-            <p>Transforma ideas audaces en aventuras digitales memorables y geniales.</p>
+            <p >Transforma ideas audaces en aventuras digitales memorables y geniales.</p>
           </GlowingCard>
         </GlowingCards>
       </div>
