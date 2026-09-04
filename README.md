@@ -126,8 +126,3 @@ Los componentes principales de la página están en:
 
 ```text
 src/components/
-```
-
-## Estado del proyecto
-
-Este proyecto se encuentra en desarrollo. Las imágenes, el video y otros recursos visuales utilizados pertenecen a los archivos incluidos en el repositorio.
