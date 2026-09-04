@@ -126,7 +126,7 @@ Los componentes principales de la página están en:
 
 ```text
 src/components/
-
+```
 ## Autor
 
 **Matthew Bettin** - [@devmattiel20](https://github.com/devmattiel20)
